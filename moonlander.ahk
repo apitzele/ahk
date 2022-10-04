@@ -1,5 +1,13 @@
 #SingleInstance Force
 
+!+^Home::
+Send, {Browser_Back}
+return
+
+!+^End::
+Send, {Browser_Forward}
+return
+
 !+^s::
 Send, #+s
 return
@@ -32,10 +40,6 @@ return
 Run, https://bitbucket.org/dashboard/overview
 return
 
-!+^r::
-Run, "C:\Program Files\JetBrains\JetBrains Rider 2021.3.3\bin\rider64.exe"
-return
-
 !+^p::
 Run, %SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe
 return
@@ -48,12 +52,24 @@ return
 Run, https://renpsg.atlassian.net/jira/software/c/projects/PHNX/boards/93
 return
 
+!+^r::
+Send ^r
+return
+
+!+^h::
+Send ^h
+return
+
 !+^z::
 Send ^z
 return
 
 !+^x::
 Send ^x
+return
+
+!+^f::
+Send ^f
 return
 
 !+^c::
