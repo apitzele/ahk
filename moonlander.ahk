@@ -1,34 +1,22 @@
 #SingleInstance Force
 
-!+^Home::
-Send, {Browser_Back}
-return
-
-!+^End::
-Send, {Browser_Forward}
-return
-
-!+^s::
-Send, #+s
-return
-
 !+^Left::
 Send, (like)
 return
 
-!+^Down::
+!+^Right::
 Send, :)
 return
 
-!+^Right::
+!+^Up::
 Send, (laugh)
 return
 
-!+^[::
+!+^Down::
 Send, (shrugman)
 return
 
-!+^]::
+!+^Delete::
 Send, (facepalm)
 return
 
@@ -54,6 +42,10 @@ return
 
 !+^r::
 Send ^r
+return
+
+!+^s::
+Send ^s
 return
 
 !+^h::
@@ -146,3 +138,4 @@ return
 
 !+^Enter::
 Send, !{Enter}{Enter}
+return
