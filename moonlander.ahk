@@ -1,141 +1,57 @@
 #SingleInstance Force
 
-!+^Left::
-Send, (like)
-return
-
-!+^Right::
-Send, :)
-return
-
-!+^Up::
-Send, (laugh)
-return
-
-!+^Down::
-Send, (shrugman)
-return
-
-!+^Delete::
-Send, (facepalm)
-return
-
-!+^n::
-Run, notepad.exe
-return
-
 !+^b::
 Run, https://bitbucket.org/dashboard/overview
 return
 
-!+^p::
-Run, %SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe
-return
-
-!+^m::
-Run, "C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Ssms.exe"
+!+^d::
+Run, https://devops.reninc.com
 return
 
 !+^j::
 Run, https://renpsg.atlassian.net/jira/software/c/projects/PHNX/boards/93
 return
 
-!+^r::
-Send ^r
+!+^n::
+Run, notepad.exe
+return
+
+!+^o::
+Run, https://octo.rendevops.com/app#/Spaces-22
+return
+
+!+^p::
+Run, %SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe
 return
 
 !+^s::
-Send ^s
-return
-
-!+^h::
-Send ^h
-return
-
-!+^z::
-Send ^z
-return
-
-!+^x::
-Send ^x
-return
-
-!+^f::
-Send ^f
-return
-
-!+^c::
-Send ^c
-return
-
-!+^v::
-Send ^v
-return
-
-!+^a::
-Send ^a
-return
-
-!+^y::
-Send ^y
+Run, C:\Users\pitzelea\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\RenPsg.ServiceRunner.appref-ms
 return
 
 !+^t::
-Send ^t
+Run, C:\Users\pitzelea\AppData\Local\Microsoft\Teams\Update.exe --processStart "Teams.exe"
 return
 
-!+^1::
-Send +1
+!+^z::
+Run, "C:\Program Files\Zscaler\ZSATray\ZSATray.exe" -shortcut
 return
 
-!+^2::
-Send +2
+!+^End::
+Send, (like)
 return
 
-!+^3::
-Send +3
+!+^Left::
+Send, :)
 return
 
-!+^4::
-Send `$
+!+^Down::
+Send, (laugh)
 return
 
-!+^5::
-Send `%
+!+^Up::
+Send, (shrugman)
 return
 
-!+^6::
-Send {^}
-return
-
-!+^7::
-Send `&
-return
-
-!+^8::
-Send `*
-return
-
-!+^9::
-Send `(
-return
-
-!+^0::
-Send `)
-return
-
-!+^k::
-Send, ^kc
-return
-
-!+^-::
-Send, _
-return
-
-!+^,::
-Send, {Up}
-return
-
-!+^Enter::
-Send, !{Enter}{Enter}
+!+^Right::
+Send, (facepalm)
 return
