@@ -8,6 +8,10 @@ return
 Run, https://devops.reninc.com
 return
 
+!+^e::
+Run, explorer.exe
+return
+
 !+^j::
 Run, https://renpsg.atlassian.net/jira/software/c/projects/PHNX/boards/93
 return
@@ -24,6 +28,14 @@ return
 Run, %SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe
 return
 
+!+^q::
+Run, "C:\Program Files\PLSQL Developer 15\plsqldev.exe"
+return
+
+!+^r::
+Run, "C:\Program Files\JetBrains\JetBrains Rider 2021.3.3\bin\rider64.exe"
+return
+
 !+^s::
 Run, C:\Users\pitzelea\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\RenPsg.ServiceRunner.appref-ms
 return
@@ -32,26 +44,30 @@ return
 Run, C:\Users\pitzelea\AppData\Local\Microsoft\Teams\Update.exe --processStart "Teams.exe"
 return
 
+!+^v::
+Run, "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\devenv.exe"
+return
+
 !+^z::
 Run, "C:\Program Files\Zscaler\ZSATray\ZSATray.exe" -shortcut
 return
 
-!+^End::
+!+^H::
 Send, (like)
 return
 
-!+^Left::
-Send, :)
+!+^,::
+Send, (smile)
 return
 
-!+^Down::
+!+^.::
 Send, (laugh)
 return
 
-!+^Up::
+!+^/::
 Send, (shrugman)
 return
 
-!+^Right::
-Send, (facepalm)
+!+^K::
+Send, (manfacepalming)
 return
